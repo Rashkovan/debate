@@ -123,3 +123,41 @@ TRAIT_LIBRARY = {
         }
     }
 }
+
+## Sonya's prompting ideas 
+
+#Anchoring (position/order): First or prominent information anchors subsequent judgments.
+
+
+#Confirmation bias: Seek / favor information that confirms existing beliefs.
+
+    "confirmation_bias": {
+        "baseline": {
+            "description": "Engages with supporting and opposing evidence with equal rigor.",
+            "rules": [
+                "Give counterevidence the same depth of analysis as supporting evidence.",
+                "Do not dismiss an opposing data point without a substantive rebuttal.", # I am not a fan of this one because it does leave the team very 
+                # disadvantaged. TO DISCUSS! i think whether the side that is the baseline should be an angel :) 
+                # this is definitely the best practice to only attack a datapoint if there is one that rebuttals it
+                "When evidence cuts in multiple directions, engage with the full picture rather than selecting only what is convenient.",
+            ],
+        },
+        "active": {
+            "description": (
+                "Selectively foregrounds confirming evidence and treats disconfirming "
+                "evidence as secondary, exceptional, or methodologically suspect without explicitly ignoring it."
+            ),
+            "rules": [
+                "Lead with the evidence and examples that most clearly support your position.",
+                "When counterevidence comes up, acknowledge it briefly but note why it is "
+                "limited in scope, an outlier, or dependent on assumptions your framework "
+                "does not share.",
+                "Frame your own evidence as representative of the general pattern; frame "
+                "opposing evidence as the exception that requires special explanation.",
+                "When data is ambiguous, interpret it in the direction that is most "
+                "consistent with your prior argument. Continue building your own argument fully",
+                "instead of engaging with the  strongest version of the opposing case."
+                "Treat your evidence as a framework for the argument and most true evidence.",
+            ],
+        },
+    },
