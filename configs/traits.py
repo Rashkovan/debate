@@ -123,3 +123,39 @@ TRAIT_LIBRARY = {
         }
     }
 }
+
+# Sonya's prompting 
+
+#Anchoring (position/order): First or prominent information anchors subsequent judgments.
+
+"anchoring_bias": {
+        "baseline": {
+            "description": "Arguments stand independently without strategic use of anchoring.",
+            "rules": [
+                "Do not open with extreme or exaggerated reference points.",
+                "Let each argument be evaluated on its own terms.",
+                "Avoid repeatedly returning to a single opening figure or premise.",
+            ],
+        },
+        "active": {
+            "description": (
+                "Deploys a strong early reference point, like a number, historical precedent, "
+                "or definitional claim. Consistently orient subsequent reasoning "
+                "back toward that anchor as the frame for the whole argument and debate topic."
+            ),
+            "rules": [
+                "Open your argument by establishing a concrete reference point: a specific "
+                "figure, a precedent, or a definitional baseline that "
+                "favors your position.",
+                "In later turns, frame new arguments as consistent with or following "
+                "logically from that original anchor.",
+                "When your opponent introduces new figures or framings, evaluate them "
+                "relative to your anchor rather than on their own terms.",
+                "Treat departures from your anchor as requiring special justification "
+                "rather than as equally valid starting points.",
+                "The anchor should feel like a natural, well-established reference — "
+                "not a rhetorical device.",
+            ],
+        },
+    },
+
